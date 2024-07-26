@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CREDIT SCORE PREDICTION</title>
+<link rel="stylesheet"  href="../static/style.css">
+</head>
+<body>
+  <h2>PURCHASE PREDICTION</h2>
+  <form action="/Prediction" method="post">
+    <label for="Annual_Income">Annual Income:</label><br>
+    <input type="number" id="Annual_Income" name="Annual_Income"><br><br>
+
+    <label for="Outstanding_Debt">Outstanding Debt:</label><br>
+    <input type="number" id="Outstanding_Debt" name="Outstanding_Debt"><br><br>
+
+    <label for="Total_EMI_per_month">Total EMI per month:</label><br>
+    <input type="number" id="Total_EMI_per_month" name="Total_EMI_per_month"><br><br>
+
+    <label for="Interest_Rate">Interest Rate:</label><br>
+    <input type="number" id="Interest_Rate" name="Interest_Rate"><br><br>
+
+    <label for="Credit_History_Age">Credit History Age:</label><br>
+    <input type="number" id="Credit_History_Age" name="Credit_History_Age"><br><br>
+
+    <label for ="Credit Mix">Credit_Mix: </label>
+    <input list="list1" name="Credit_Mix">
+  
+    <datalist id="list1>
+            <option value="Bad" />
+            <option value="Standard" />
+            <option value="Good" />              
+    </datalist><br><br>
+    
+    
+    
+    <input type="submit" value="Submit">
+  </form>
+</body> 
+</html>
