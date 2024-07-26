@@ -1,8 +1,12 @@
 body {
+
+    background-image: url("pastel-pink-background-368148-pixahive.jpg");
     font-family: Arial, sans-serif;
+    font-weight:bold;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-size: cover;
 }
 
 h1 {
